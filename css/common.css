@@ -19,11 +19,16 @@
 /*------------
     TEXT
 --------------*/
-
+.text-center {
+    text-align: center;
+}
 /*------------
     FLEX
 --------------*/
 .d-flex {
+    display: flex;
+}
+.row {
     display: flex;
 }
 .justify-content-end {
