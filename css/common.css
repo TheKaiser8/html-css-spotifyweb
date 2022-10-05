@@ -1,7 +1,11 @@
 /*------------
     COMMON
 --------------*/
-
+.page-container {
+    display: flex;
+    height: calc(100% - 90px);
+    background-color: #141922;
+}
 /*------------
     TEXT
 --------------*/

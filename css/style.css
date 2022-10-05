@@ -3,12 +3,22 @@
 @import url('common.css');
 @import url('buttons.css');
 @import url('header.css');
+@import url('aside.css');
 @import url('main.css');
 @import url('footer.css');
+
+body {
+    height: 100vh;
+}
 
 /*------------
     TYPOGRAPHY
 --------------*/
 body {
     font-family: 'Montserrat', sans-serif;
+    color: white;
 }
+
+
+
+
