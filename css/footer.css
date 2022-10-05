@@ -2,3 +2,16 @@ footer {
     height: 90px;
     background-color: #282828;
 }
+footer .row {
+    justify-content: space-between;
+    height: 100%;
+}
+.footer-left, .footer-right {
+    width: 20%;
+}
+.footer-center {
+    width: 40%;
+}
+.footer-left, .footer-center, .footer-right {
+    border: 1px dashed white;
+}
