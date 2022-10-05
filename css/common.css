@@ -20,7 +20,15 @@ aside .list-inline a {
 /*------------
     FLEX
 --------------*/
-
+.d-flex {
+    display: flex;
+}
+.justify-content-end {
+    justify-content: flex-end;
+}
+.align-items-center {
+    align-items: center;
+}
 /*------------------
     MARGIN E PADDING
 --------------------*/
