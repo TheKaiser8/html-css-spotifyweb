@@ -6,6 +6,13 @@
     height: calc(100% - 90px);
     background-color: #141922;
 }
+aside .list-inline {
+    list-style: none;
+}
+aside .list-inline a {
+    text-decoration: none;
+    color: inherit;
+}
 /*------------
     TEXT
 --------------*/
@@ -17,3 +24,6 @@
 /*------------------
     MARGIN E PADDING
 --------------------*/
+.mb-25 {
+    margin-bottom: 25px;
+}
