@@ -5,3 +5,9 @@ main {
     width: calc(100% - 230px);
     overflow-y: auto;
 }
+.category-nav .list-inline li {
+    margin-right: 20px;
+}
+.category-nav .list-inline a {
+    color: #7c7e83;
+}
