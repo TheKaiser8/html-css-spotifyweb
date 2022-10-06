@@ -11,7 +11,7 @@ main {
     margin-right: 20px;
 }
 .category-nav .list-inline a {
-    color: #7c7e83;
+    color: var(--color-text);
 }
 /*--------------------
     SECTION RECENTLY

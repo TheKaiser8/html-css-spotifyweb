@@ -46,6 +46,12 @@
 /*------------------
     MARGIN E PADDING
 --------------------*/
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
 .mb-25 {
     margin-bottom: 25px;
 }

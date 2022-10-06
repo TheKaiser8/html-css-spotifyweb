@@ -15,3 +15,13 @@ button {
     border-radius: 30px;
     border: 1px solid white;
 }
+.btn-square {
+    height: 35px;
+    width: 35px;
+}
+.btn-plus {
+    background-color: #a3a3a3;
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-right: 10px;
+}

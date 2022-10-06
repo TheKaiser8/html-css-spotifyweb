@@ -2,11 +2,61 @@ aside {
     width: 230px;
     background-color: #000000;
     padding: 0 20px;
+    flex-direction: column;
+    color: var(--color-text);
+    overflow-y: auto;
 }
 .box-logo {
     height: 90px;
     display: flex;
+    flex-shrink: 0;
 }
 .img-logo {
     width: 70%;
+}
+.main-nav .list-block li {
+    margin-bottom: 10px;
+}
+.img-icon-nav {
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.main-nav li:not(:first-child) .img-icon-nav {
+    filter: invert(0.5);
+}
+.main-nav li:first-child a {
+    color: var(--color-text-on-hover);
+}
+.playlist-nav {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+.playlist-nav .list-block li {
+    margin-bottom: 20px;
+}
+.icon-plus {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1rem;
+}
+.text-on-hover {
+    color: var(--color-text-on-hover);
+}
+.account-nav li:first-child .img-icon-nav {
+    filter: invert(0.5);
+}
+.profile {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-color: #808080;
+    border-radius: 50%;
+}
+.profile .img-icon-nav {
+    width: 100%;
+    border-radius: 50%;
+}
+.account-nav li:last-child .text-on-hover {
+    margin-left: 10px;
 }

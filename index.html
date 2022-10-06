@@ -8,7 +8,7 @@
     <!-- Google Font Montserrat -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
     <!-- /Google Font Montserrat -->
     <!-- Font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
@@ -23,21 +23,39 @@
     </header>
     <div class="page-container">
         <!-- Barra nav laterale -->
-        <aside>
+        <aside class="d-flex">
             <div class="box-logo">
                 <img class="img-logo" src="img/logo.svg" alt="Logo Spotify">
             </div>
-            <nav class="main-nav-aside">
+            <nav class="main-nav">
                 <ul class="list-block mb-25">
-                    <li><a href="#">ICONA + Home</a></li>
-                    <li><a href="#">ICONA + Cerca</a></li>
-                    <li><a href="#">ICONA + La tua libreria</a></li>
+                    <li>
+                        <a href="#">
+                            <img class="img-icon-nav" src="img/home.svg" alt="Home">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="img-icon-nav" src="img/search.svg" alt="Cerca">
+                            Cerca
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="img-icon-nav" src="img/libreria.svg" alt="libreria">
+                            La tua libreria
+                        </a>
+                    </li>
                 </ul>
             </nav>
-            <nav class="playlist-nav-aside">
-                <h4>PLAYLIST</h4>
+            <h4 class="text-on-hover mb-10">PLAYLIST</h4>
+            <a class="icon-plus d-flex align-items-center mb-20" href="#">
+                <button class="btn-square btn-plus">+</button>
+                Crea Playlist
+            </a>
+            <nav class="playlist-nav">
                 <ul class="list-block">
-                    <li><a href="#">ICONA + Crea Playlist</a></li>
                     <li><a href="#">Nome Playlist</a></li>
                     <li><a href="#">Nome Playlist</a></li>
                     <li><a href="#">Nome Playlist</a></li>
@@ -45,6 +63,25 @@
                     <li><a href="#">Nome Playlist</a></li>
                     <li><a href="#">Nome Playlist</a></li>
                     <li><a href="#">Nome Playlist</a></li>
+                </ul>
+            </nav>
+            <nav class="account-nav">
+                <ul class="list-block mb-10">
+                    <li class="mb-10">
+                        <a href="#">
+                            <img class="img-icon-nav" src="img/download.svg" alt="Download">
+                            Installa app
+                        </a>
+                    </li>
+                    <hr class="mb-10">
+                    <li class="mb-10">
+                        <a href="#">
+                            <div class="profile">
+                                <img class="img-icon-nav" src="img/profile.svg" alt="Profilo">
+                            </div>
+                            <span class="text-on-hover">John Doe</span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </aside>

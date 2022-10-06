@@ -2,8 +2,8 @@
     VARIABLES
 --------------*/
 :root {
-    --first-color: ;
-    --first-color-light: ;
+    --color-text: #7c7e83;
+    --color-text-on-hover: white;
     --secondary-color: ;
     --third-color: ;
     --text-color1: ;
