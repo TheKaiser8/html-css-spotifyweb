@@ -7,8 +7,12 @@ main {
     padding-left: 20px;
     padding-right: 20px;
 }
+.category-nav .list-inline {
+    flex-wrap: wrap;
+}
 .category-nav .list-inline li {
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 .category-nav .list-inline a {
     color: var(--color-text);
@@ -16,13 +20,15 @@ main {
 main .row {
     margin-left: -8px;
     margin-right: -8px;
+    flex-wrap: wrap;
 }
 /*--------------------
     SECTION RECENTLY
 ----------------------*/
 .card-song {
     width: calc(100% / 6 - 16px);
-    margin: 0 8px;
+    margin: 20px 8px;
+    height: 100%;
 }
 .img-card {
     width: 100%;
@@ -36,4 +42,13 @@ main .row {
 ---------------------------------*/
 .img-circle {
     border-radius: 50%;
+}
+/*--------------------
+    MAIN RESPONSIVE
+----------------------*/
+@media screen and (max-width: 1100px) {
+    .card-song {
+        width: calc(100% / 4 - 16px);
+        margin: 20px 8px;
+    }
 }
