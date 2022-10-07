@@ -202,14 +202,24 @@
                 <button class="btn-player-small mr-10"><i class="fa-regular fa-folder"></i></button>
             </div>
             <div class="footer-center d-flex justify-content-center align-items-center">
-                <div class="play-controls">
-                    <button class="btn-player-medium"><i class="fa-solid fa-shuffle"></i></button>
-                    <button class="btn-player-medium"><i class="fa-solid fa-backward-step"></i></button>
-                    <button class="btn-player-big"><i class="fa-regular fa-circle-play"></i></button>
-                    <button class="btn-player-medium"><i class="fa-solid fa-forward-step"></i></button>
+                <div class="play-controls d-flex mb-10">
+                    <button class="btn-player-medium mr-20"><i class="fa-solid fa-shuffle"></i></button>
+                    <button class="btn-player-medium mr-30"><i class="fa-solid fa-backward-step"></i></button>
+                    <button class="btn-player-big mr-30"><i class="fa-regular fa-circle-play"></i></button>
+                    <button class="btn-player-medium mr-20"><i class="fa-solid fa-forward-step"></i></button>
                     <button class="btn-player-medium"><i class="fa-solid fa-rotate-right"></i></button>
                 </div>
-                <div class="play-bar"></div>
+                <div class="play-time-bar d-flex align-items-center">
+                    <div class="time-minute mr-25">
+                        <small>0:25</small>
+                    </div>
+                    <div class="play-bar mr-25">
+                        <div class="time-played"></div>
+                    </div>
+                    <div class="time-minute">
+                        <small>4:35</small>
+                    </div>
+                </div>
             </div>
             <div class="footer-right d-flex justify-content-end align-items-center">
                 <div class="audio-video-controls">
@@ -217,7 +227,9 @@
                     <button class="btn-player-small mr-10"><i class="fa-solid fa-display"></i></button>
                     <button class="btn-player-small mr-10"><i class="fa-solid fa-volume-high"></i></button>
                 </div>
-                <div class="play-bar"></div>
+                <div class="play-bar">
+                    <div class="volume-level"></div>
+                </div>
             </div>
         </div>
     </footer>

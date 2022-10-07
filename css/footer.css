@@ -20,15 +20,24 @@ footer .row {
 .footer-left .info-song {
     flex-grow: 1;
 }
-.footer-center .play-bar {
-    max-width: 425px;
-    flex-grow: 1;
-    border: 2px solid var(--color-text);
-    border-radius: 2px;
+.footer-center {
+    flex-direction: column;
+}
+.play-bar {
+    width: 425px;
+    height: 4px;
+    background-color: #5a5a5a;
+}
+.footer-center .play-bar .time-played {
+    width: 20%;
+    height: 100%;
+    background-color: #c1c1c1;
 }
 .footer-right .play-bar {
     max-width: 120px;
-    flex-grow: 1;
-    border: 2px solid var(--color-text);
-    border-radius: 2px;
+}
+.footer-right .play-bar .volume-level {
+    width: 20%;
+    height: 100%;
+    background-color: #c1c1c1;
 }

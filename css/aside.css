@@ -43,6 +43,9 @@ aside {
 .text-on-hover {
     color: var(--color-text-on-hover);
 }
+.account-nav {
+    margin-top: auto;
+}
 .account-nav li:first-child .img-icon-nav {
     filter: invert(0.5);
 }
