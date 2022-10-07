@@ -73,11 +73,18 @@ aside {
 @media screen and (max-width: 600px) {
     aside {
         width: 70px;
+        align-items: center;
     }
     .hide-mobile {
         display: block;
     }
     .hide-desktop {
         display: none;
+    }
+    .img-logo {
+        height: 30px;
+    }
+    .img-icon-nav {
+        margin-right: 0;
     }
 }
