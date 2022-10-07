@@ -25,3 +25,17 @@ button {
     font-weight: 600;
     margin-right: 10px;
 }
+.footer-left .btn-player-small {
+    color: var(--color-text);
+}
+.footer-center .btn-player-medium {
+    font-size: 16px;
+    color: var(--color-text-on-hover);
+}
+.footer-center .btn-player-big {
+    font-size: 24px;
+    color: var(--color-text-on-hover);
+}
+.footer-right .btn-player-small {
+    color: var(--color-text-on-hover);
+}

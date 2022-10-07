@@ -6,11 +6,29 @@ footer .row {
     height: 100%;
 }
 .footer-left, .footer-right {
-    width: 20%;
+    width: 230px;
+    padding: 0 10px;
+    color: var(--color-text);
 }
 .footer-center {
     flex-grow: 1;
 }
-.footer-left, .footer-center, .footer-right {
-    border: 1px dashed white;
+.footer-left .img-play-song {
+    max-height: 42px;
+    max-width: 42px;
+}
+.footer-left .info-song {
+    flex-grow: 1;
+}
+.footer-center .play-bar {
+    max-width: 425px;
+    flex-grow: 1;
+    border: 2px solid var(--color-text);
+    border-radius: 2px;
+}
+.footer-right .play-bar {
+    max-width: 120px;
+    flex-grow: 1;
+    border: 2px solid var(--color-text);
+    border-radius: 2px;
 }
