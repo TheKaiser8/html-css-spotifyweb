@@ -3,6 +3,6 @@ header {
     position: fixed;
     right: 0;
     left: 230px;
-    background-color: #080b12;
+    background-color: rgba(0, 0, 0, 0.5);
     padding-right: 20px;
 }
