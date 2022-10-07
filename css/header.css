@@ -5,6 +5,7 @@ header {
     left: 230px;
     background-color: rgba(0, 0, 0, 0.5);
     padding-right: 20px;
+    z-index: 100;
 }
 /*--------------------
     HEADER RESPONSIVE

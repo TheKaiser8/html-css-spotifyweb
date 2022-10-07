@@ -48,11 +48,35 @@ main .row {
 .subtitle {
     color: var(--color-text);
 }
+.box-image {
+    position: relative;
+}
 /*-------------------------------
     SECTION MOST POPULAR ARTISTS
 ---------------------------------*/
 .img-circle {
     border-radius: 50%;
+}
+/*--------------------
+    MAIN HOVER
+----------------------*/
+.card-song:hover .img-card {
+    filter: opacity(0.5);
+}
+.circle-play-hover {
+    display: none;
+    font-size: 60px;
+    color: inherit;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card-song:hover .circle-play-hover {
+    display: block;
+}
+.card-song:hover {
+    cursor: pointer;
 }
 /*--------------------
     MAIN RESPONSIVE
