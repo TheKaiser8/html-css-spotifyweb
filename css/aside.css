@@ -17,6 +17,7 @@ aside {
 }
 .main-nav .list-block li {
     margin-bottom: 10px;
+    position: relative;
 }
 .img-icon-nav {
     height: 25px;
@@ -28,6 +29,16 @@ aside {
 }
 .main-nav li:first-child a {
     color: var(--color-text-on-hover);
+}
+.main-nav li:first-child::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #adff2f;
 }
 .playlist-nav {
     flex-grow: 1;
@@ -86,5 +97,8 @@ aside {
     }
     .img-icon-nav {
         margin-right: 0;
+    }
+    .main-nav li:first-child::after {
+        display: none;
     }
 }
