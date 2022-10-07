@@ -1,5 +1,6 @@
 aside {
     width: 230px;
+    flex-shrink: 0;
     background-color: #000000;
     padding: 0 20px;
     flex-direction: column;
@@ -8,11 +9,11 @@ aside {
 }
 .box-logo {
     height: 90px;
-    display: flex;
-    flex-shrink: 0;
+    padding: 25px 0;
 }
 .img-logo {
-    width: 70%;
+    max-height: 100%;
+    max-width: 100%;
 }
 .main-nav .list-block li {
     margin-bottom: 10px;
@@ -62,4 +63,21 @@ aside {
 }
 .account-nav li:last-child .text-on-hover {
     margin-left: 10px;
+}
+.hide-mobile {
+    display: none;
+}
+/*--------------------
+    ASIDE RESPONSIVE
+----------------------*/
+@media screen and (max-width: 600px) {
+    aside {
+        width: 70px;
+    }
+    .hide-mobile {
+        display: block;
+    }
+    .hide-desktop {
+        display: none;
+    }
 }

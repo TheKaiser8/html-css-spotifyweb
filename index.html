@@ -25,36 +25,37 @@
         <!-- Barra nav laterale -->
         <aside class="d-flex">
             <div class="box-logo">
-                <img class="img-logo" src="img/logo.svg" alt="Logo Spotify">
+                <img class="img-logo hide-desktop" src="img/logo.svg" alt="Logo Spotify">
+                <img class="img-logo hide-mobile" src="img/logo-small.svg" alt="Logo Spotify ridotto">
             </div>
             <nav class="main-nav">
                 <ul class="list-block mb-25">
                     <li>
                         <a href="#">
                             <img class="img-icon-nav" src="img/home.svg" alt="Home">
-                            Home
+                            <span class="hide-desktop">Home</span>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <img class="img-icon-nav" src="img/search.svg" alt="Cerca">
-                            Cerca
+                            <span class="hide-desktop">Cerca</span>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <img class="img-icon-nav" src="img/libreria.svg" alt="libreria">
-                            La tua libreria
+                            <span class="hide-desktop">La tua libreria</span>
                         </a>
                     </li>
                 </ul>
             </nav>
-            <h4 class="text-on-hover mb-10">PLAYLIST</h4>
-            <a class="icon-plus d-flex align-items-center mb-20" href="#">
+            <h4 class="text-on-hover mb-10 hide-desktop">PLAYLIST</h4>
+            <a class="icon-plus d-flex align-items-center mb-20 hide-desktop" href="#">
                 <button class="btn-square btn-plus">+</button>
                 Crea Playlist
             </a>
-            <nav class="playlist-nav">
+            <nav class="playlist-nav hide-desktop">
                 <ul class="list-block">
                     <li><a href="#">Nome Playlist</a></li>
                     <li><a href="#">Nome Playlist</a></li>
@@ -70,16 +71,16 @@
                     <li class="mb-10">
                         <a href="#">
                             <img class="img-icon-nav" src="img/download.svg" alt="Download">
-                            Installa app
+                            <span class="hide-desktop">Installa app</span>
                         </a>
                     </li>
-                    <hr class="mb-10">
+                    <hr class="mb-10 hide-desktop">
                     <li class="mb-10">
                         <a href="#">
                             <div class="profile">
                                 <img class="img-icon-nav" src="img/profile.svg" alt="Profilo">
                             </div>
-                            <span class="text-on-hover">John Doe</span>
+                            <span class="text-on-hover hide-desktop">John Doe</span>
                         </a>
                     </li>
                 </ul>
