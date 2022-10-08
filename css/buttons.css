@@ -15,7 +15,7 @@ button {
     border-radius: 30px;
     border: 1px solid white;
     margin-right: 20px;
-    transition: transform 1s;
+    transition: transform 0.5s;
 }
 .btn-square {
     height: 35px;
@@ -46,4 +46,10 @@ button {
 ------------------------*/
 .btn-header:hover {
     transform: scale(1.2);
+}
+/*----------------------
+    BUTTON FOOTER HOVER
+------------------------*/
+.footer-left .btn-player-small:hover {
+    color: var(--color-text-on-hover);
 }
