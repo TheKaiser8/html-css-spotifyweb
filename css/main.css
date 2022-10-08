@@ -16,9 +16,6 @@ main {
     padding: 10px;
     position: relative;
 }
-.category-nav li:hover a {
-    color: var(--color-text-on-hover);
-}
 .category-nav .list-inline a {
     color: var(--color-text);
 }
@@ -64,7 +61,9 @@ main .row {
 /*--------------------
     MAIN HOVER
 ----------------------*/
-
+.category-nav li:hover a {
+    color: var(--color-text-on-hover);
+}
 .card-song:hover .img-card {
     filter: opacity(0.5);
 }

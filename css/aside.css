@@ -80,6 +80,24 @@ aside {
     display: none;
 }
 /*--------------------
+    ASIDE HOVER
+----------------------*/
+aside li:hover {
+    color: var(--color-text-on-hover);
+}
+.main-nav li:not(:first-child):hover .img-icon-nav {
+    filter: invert(0);
+}
+.icon-plus:hover {
+    color: var(--color-text-on-hover);
+}
+.icon-plus .btn-plus:hover {
+    background-color: var(--color-text-on-hover);
+}
+.account-nav li:hover .img-icon-nav {
+    filter: invert(0);
+}
+/*--------------------
     ASIDE RESPONSIVE
 ----------------------*/
 @media screen and (max-width: 600px) {
