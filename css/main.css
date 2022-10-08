@@ -11,9 +11,13 @@ main {
     flex-wrap: wrap;
 }
 .category-nav .list-inline li {
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
     position: relative;
+}
+.category-nav li:hover a {
+    color: var(--color-text-on-hover);
 }
 .category-nav .list-inline a {
     color: var(--color-text);
@@ -60,6 +64,7 @@ main .row {
 /*--------------------
     MAIN HOVER
 ----------------------*/
+
 .card-song:hover .img-card {
     filter: opacity(0.5);
 }
@@ -84,12 +89,10 @@ main .row {
 @media screen and (max-width: 1100px) {
     .card-song {
         width: calc(100% / 4 - 16px);
-        margin: 20px 8px;
     }
 }
 @media screen and (max-width: 700px) {
     .card-song {
         width: calc(100% / 2 - 16px);
-        margin: 20px 8px;
     }
 }
