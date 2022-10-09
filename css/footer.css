@@ -37,6 +37,17 @@ footer .row {
     width: 20%;
     height: 100%;
     background-color: #c1c1c1;
+    position: relative;
+}
+.footer-center .circle-cursor, .footer-right .circle-cursor {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: -4px;
+    right: 0;
+    display: none;
 }
 .footer-right .play-bar {
     max-width: 120px;
@@ -46,6 +57,7 @@ footer .row {
     width: 20%;
     height: 100%;
     background-color: #c1c1c1;
+    position: relative;
 }
 /*----------------------
     FOOTER HOVER
@@ -54,6 +66,14 @@ footer .row {
     color: var(--color-text-on-hover);
     text-decoration: underline;
 }
+.play-bar:hover .circle-cursor {
+    display: block;
+}
+.footer-center .play-bar:hover .time-played, .footer-right .play-bar:hover .volume-level {
+    background-color: #adff2f;
+    cursor: pointer;
+}
+
 /*--------------------
     FOOTER RESPONSIVE
 ----------------------*/

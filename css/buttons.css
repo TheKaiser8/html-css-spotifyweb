@@ -53,3 +53,6 @@ button {
 .footer-left .btn-player-small:hover {
     color: var(--color-text-on-hover);
 }
+.footer-center .btn-player-big:hover {
+    transform: scale(1.2);
+}
